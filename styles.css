@@ -1,0 +1,176 @@
+.body{
+    background-color: aqua;
+} /*esto creo que no sirve para nada*/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+} /*con este definis que tan ancha es la pagina, si no la definis, las cosas se mueven a medida que achicas o agrandas la ventana y queda medio feo*/
+
+.nav_Menu{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    padding-top: 7px;
+    padding-bottom: 30px;
+    background-color: cadetblue;
+} /* diseño base para armar el menu*/
+
+.nav_Menu li{
+    min-width: 8em;
+    float: left;
+    margin-right: 0.6em;
+    margin-left:0.6em;
+    text-align: center;
+} /*diseño de cada boton*/
+
+.nav_Menu li a:link,
+.nav_Menu li a:visited{
+    font-size: 20px;
+    font-family:sans-serif;
+    background-color: cadetblue;
+    color: white;
+    display:block;
+    padding: none;
+    text-decoration:none;
+} /*esto no me acuerdo que era*/
+
+.nav_Menu li a:hover{
+    background-color: #3c6482;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0 4px gray;
+} /*este sirve para cambiar el diseño del boton cuando le pasas por encima*/
+
+.nav_Menu li a:active{
+    background-color: darkseagreen;
+  transform: translateY(-6px);
+    box-shadow: 0 3px gray;
+} /*este para cuando lo activas*/
+
+#mainBody{
+    background-color: whitesmoke;
+    height: auto; 
+} /*formato del espacio principal*/
+
+#leftDiv{
+    background-color: gainsboro;
+    width: 65%;
+    float: left;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+} /*separacion izquierda*/
+
+#divNovedades{
+    font-family:fantasy;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    background-color: #3c6482;
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 6px white;
+}
+
+#leftDiv h2{
+    text-decoration: underline;
+    color:cadetblue;
+    font-size: 20px;
+    margin: 20px;
+} /*sub-titulo*/
+
+#leftDiv p{
+    margin: 20px;
+} /*parrafo*/
+
+#rightDiv{
+    background-color: gainsboro;
+    margin-right: 20px;
+    width: 25%;
+    float: right;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+} /*separacion derecha*/
+
+#divAfiliacion{
+    font-family:fantasy;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    background-color: #3c6482;
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 6px white;
+}
+
+#rightDiv p{
+    margin: 20px;
+} /*parrafo*/
+
+#rightDiv h2{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+} /*link*/
+#rightDiv h2 a{
+    text-decoration: none;
+    font-style: normal;
+    color:cadetblue;
+} /*mas link*/
+
+#rightDiv h2 a:hover{
+    color:#3c6482;
+} /*para que cambie el link de color cuando le pasas por encima*/
+
+
+.footer_Info{
+    background-color: #3c6482;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding-left: 30px;
+} /*desde aca es el diseño de la parte de abajo de la pag*/
+
+.footer_Info li{
+    font-family: monospace;
+    color: white;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+}
+
+.footer_Info2{ 
+    text-decoration:none;
+    background-color: lightgray;
+    list-style: none;
+    float: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_Info2 li {
+    background-color: lightgray;
+    font-size: 0.8em;
+    float: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer_Info2 li a{
+    text-decoration: none;
+    color: black
+}
+
